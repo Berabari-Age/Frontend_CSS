@@ -13,7 +13,8 @@
     nav{
         display: flex;
         margin-left: 200px;
-        margin-right: 50px; 
+        margin-right: 50px;
+         
     }
     
     .n1, .n2, .n3, .n4{
@@ -24,6 +25,7 @@
         font-size: 8px;
         margin-left: 5px;
         border-radius: 5em;
+        text-decoration: none;
     }
 body{
     background-color: darkgray;
@@ -45,6 +47,7 @@ body{
     border: 15px red solid;
     border-width: 3px;
     border-bottom-width: 10px;
+    border-radius: 3em;
 
     padding-top: 10px;
 }
