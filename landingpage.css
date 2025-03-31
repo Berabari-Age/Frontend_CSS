@@ -14,11 +14,12 @@
         width: 50px;
         height: 50px;
         border-radius: 100%;
+        justify-items: flex-start;
     }
     nav{
         display: flex;
-        margin-left: 200px;
-        margin-right: 50px;
+        margin-left: 800px;
+        margin-right: 100px;
          
     }
     .nav-ul{
@@ -29,7 +30,7 @@
     }
     .n1, .n2, .n3, .n4{
         /* flex-direction: row; */
-        background-color: rgb(146, 182, 206);
+        background-color: rgb(78, 83, 87);
         /* border: 2px rgb(153, 41, 41) solid; */
         padding: 5px 10px;
         font-size: 8px;
@@ -41,6 +42,7 @@
     a{
         text-decoration: none;
         color: antiquewhite;
+        font-weight: 800;
     }
     
 body{
@@ -82,8 +84,11 @@ body{
     text-align: center;
 }
 
-.section-background{
-    background-color: black;
+.section-1{
+    background-image: url(Founder.jpg);
+}
+.section-2{
+    background-color: rgb(73, 71, 71);
 }
 .services{
     display: inline-block;
@@ -91,7 +96,7 @@ body{
     font-weight: 900;
     font-family:Tahoma;
     font-size: 25px;
-    border: 5px rgb(117, 6, 89) solid;
+    border: 5px rgb(235, 229, 233) solid;
     margin-top: 20px;
     padding: 5px 20px;
     border-radius: 20em;
@@ -101,18 +106,19 @@ body{
 
 .services-items{
     display: inline-flex;
-     color: antiquewhite;
+     color: white;
     
 
 }
 .services-items1, .services-items2, .services-items3{
-    background-color: rgb(14, 42, 60);
-    border: 5px rgb(117, 6, 89) solid;
+    background-color: blue;
+    border: 2px rgb(235, 229, 233) solid;
     padding: 5px 10px;
     margin-top: 10px;
     margin-right:15px;
     margin-left: 15px;
     justify-content: space-between;
+    border-radius: 2em;
 }
 
 
